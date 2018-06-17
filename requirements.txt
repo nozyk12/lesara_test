@@ -1,0 +1,6 @@
+Flask
+flask-mysqldb
+flask_sqlalchemy
+Flask-Migrate
+numpy
+dill
