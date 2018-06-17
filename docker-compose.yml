@@ -3,6 +3,8 @@ version: '3'
 services:
   web:
     build: .
+    environment:
+      FLASK_APP: lesara
     command: bash /app/run_application.sh
     ports:
       - "8000:8000"

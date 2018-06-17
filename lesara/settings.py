@@ -2,7 +2,7 @@ SQLALCHEMY_DATABASE_URI = 'mysql://{username}:{password}@{host}/{db_name}'.forma
     username='lesara',
     password='pass',
     host='db',
-    db_name= 'lesara'
+    db_name='lesara'
 )
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-DEBUG=True
+DEBUG = True

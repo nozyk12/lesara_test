@@ -1,4 +1,3 @@
-
 from lesara import app, db
 from lesara.models import Order
 from lesara.utils import predict
@@ -7,6 +6,7 @@ from lesara.utils import predict
 @app.route('/')
 def index():
     return "main"
+
 
 @app.route('/predict/<customer_id>')
 def get_prediction(customer_id):
